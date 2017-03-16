@@ -406,6 +406,17 @@ optgroup {
   font-weight: bold;
 }
 
+/* To whiten the font */
+.white {
+    color: white;
+}
+
+/* To center images */
+.center {
+    text-align: center;
+}
+
+/*
 .profile {
   background: url(../images/profile.jpg) 0 0 no-repeat;
   margin: auto;
@@ -414,6 +425,7 @@ optgroup {
   padding-left: 100px;
   padding-right: 100px;
 }
+*/
 
 /* Tables
    ========================================================================== */
