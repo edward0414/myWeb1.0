@@ -1,13 +1,11 @@
 # Setup
 title:        Edward Feng
-tagline:      INSPIRE. INFLUENCE. IMPACT
+tagline:      INSPIRE. INFLUENCE. IMPACT.
 baseurl:      ""
 paginate:     1
 
 # About/contact
-author:
-  name:       Edward Feng
-  url:        http://yourhomepage.com 
+author: Edward Feng
 
 # Gems
 gems:
