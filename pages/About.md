@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
 title:  About Me
-date:   2017-03-16 16:30:00
-categories: main
+permalink: /about/
 ---
 
 {: .center}
