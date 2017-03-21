@@ -12,9 +12,7 @@ As a senior executive for a non-profit organization CACTES Association, I have t
 The PhotoRenamer appallows users to add tags to photos in the selected directory, so it is easier for the user to search up tagged photos in the built-in operating system search.
 
 
-How:
-
-First of all, I needed to build the backend code. What would be the best data structure for a program that searches through files within files? The answer was clear- a Tree data structure. I created an abstract class called FileNode that takes in a file and stores its path and this specific file as attributes.
+First of all, I needed to build the back-end code. What would be the best data structure for a program that searches through files within files? The answer was clear- a Tree data structure. I created an abstract class called FileNode that takes in a file and stores its path and this specific file as attributes.
 
 {% highlight ruby %}
 public abstract class FileNode {
