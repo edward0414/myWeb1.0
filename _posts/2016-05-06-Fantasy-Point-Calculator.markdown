@@ -12,4 +12,6 @@ I play fantasy basketball, a game that compares the statistic of real-life playe
 {: .center}
 ![Fantasy Point Calculator]({{ site.url }}/assets/images/posts/DFP_cal.png)
 
-The whole program is made of JComponent of Java class. I created a lot of JTextField for all the input and a JButton for the resulting output. Then, append all the JTextField and JButton into a JPanel and then to a JFrame. Eventually, set the JFrame to visible.
+The whole program is made of JComponent of Java class. I created a lot of JTextField for all the input and a JButton for the resulting output. Then, append all the JTextField and JButton into a JPanel and then to a JFrame. Eventually, set the JFrame to visible. You can check out the code on my [github page].
+
+![github page](https://github.com/edward0414/FantasyPoint_calculator)
