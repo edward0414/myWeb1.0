@@ -2,7 +2,7 @@
 layout: post
 title:  "PhotoRenamer Part I"
 date:   2017-03-13 15:02:43
-tags: Java, JComponent, PhotoRenmaer
+tags: Java, JComponent, PhotoRenamer
 ---
 
 Another Java project.
