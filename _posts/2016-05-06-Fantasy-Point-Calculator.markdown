@@ -2,7 +2,7 @@
 layout: post
 title:  "Fantasy Point Calculator"
 date:   2016-05-06 15:40:56
-categories: Java
+tags: Java
 ---
 
 This is my first program ever! 
@@ -14,4 +14,4 @@ I play fantasy basketball, a game that compares the statistic of real-life playe
 
 The whole program is made of JComponent of Java class. I created a lot of JTextField for all the input and a JButton for the resulting output. Then, append all the JTextField and JButton into a JPanel and then to a JFrame. Eventually, set the JFrame to visible. You can check out the code on my [github page].
 
-![github page](https://github.com/edward0414/FantasyPoint_calculator)
+[github page]: https://github.com/edward0414/FantasyPoint_calculator
