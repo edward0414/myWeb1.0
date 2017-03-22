@@ -9,7 +9,7 @@ Another Java project.
 
 As a senior executive for a non-profit organization CACTES Association, I have to build and update its official website, including organizing photos and documents that are to be posted on the website. To keep the photos organized, I add information, such as the name of the event, as tags to each photo. Yet, sometimes I had to add tags to hundreds of photos... This was when I came up with the idea of the PhotoRenamer app.
 
-The PhotoRenamer appallows users to add tags to photos in the selected directory, so it is easier for the user to search up tagged photos in the built-in operating system search.
+The PhotoRenamer app allows users to add tags to photos in the selected directory, so it is easier for the user to search up tagged photos in the built-in operating system search.
 
 
 First of all, I needed to build the back-end code. What would be the best data structure for a program that searches through files within files? The answer was clear- a Tree data structure. I created an abstract class called FileNode that takes in a file and stores its path and this specific file as attributes.

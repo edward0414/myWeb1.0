@@ -7,7 +7,7 @@ permalink: /about/
 {: .center}
 ![Profile Picture]({{ site.url }}/assets/images/posts/profile.jpg)
 
-I am Edward Feng, a passionate and curious second-year computer scientist at the University of Toronto. I enjoy building projects and learning about new technology and future trends. I have a strong interest in machine learning, artificial intelligence, and big data. My goal is to use my skills I learn from each field to create software that can benefit the world.
+I am Edward Feng, a passionate and curious second-year computer scientist at the University of Toronto. I enjoy building projects and learning about new technology and future trends. I have a strong interest in machine learning, artificial intelligence, and big data, and I am planning to pursue deeper into these fields in the future. My goal is to use my skills I learn from each field to create applications that can benefit the world.
 
 In my free time, I enjoy watching and playing sports, programming, and exploring the nature.
 
