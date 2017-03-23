@@ -2,7 +2,7 @@
 layout: post
 title:  "ContentCopier"
 date:   2017-03-19 12:50:23
-tags: C, ContentCopier, fork(), fread(), fwrite(0)
+tags: C, ContentCopier, fork(), fread(), fwrite()
 ---
 
 This is a program coded in C.
@@ -22,15 +22,12 @@ int copy_file(const char *src, const char *dest) {
         printf("cannot open this file for reading: %s.\n", src);
         return -1;
     }
-    
     if((fw = fopen(dest, "wb")) == NULL){
         printf("cannot open this file for writing: %s.\n", dest);
         return -1;
     }
     
-    
     size_t bytes;
-    
     while ((bytes = fread(buffer, 1, BUFFSIZE, fr)) != 0) {
         size_t written = fwrite(buffer, 1, bytes, fw);
         if( written != bytes) {
@@ -38,7 +35,6 @@ int copy_file(const char *src, const char *dest) {
             break;
         }
     }
-    
     fclose(fr);
     fclose(fw);
     return 0;

@@ -421,6 +421,10 @@ optgroup {
     list-style: none;
 }
 
+.posts li {
+    margin: 2em 0 2em 0;
+}
+
 .list {
     display: block;
     font-size: 24px;
