@@ -7,11 +7,10 @@ tags: C, ContentCopier, fork(), fread(), fwrite()
 
 This is a program coded in C.
 
-Why?
 When you are copying the contents from a directory to another directory, don't you find it annoying to click through all the directories to reach the destinated directory? That is how I felt too! Therefore, I made this program in C using function calls I learned to complete the task in command line.
 
-How?
-To complete copying files action, I utilized fwrite and fread function calls. I first opened both the destination and source files using fopen. Once it was opened, I read the contents from the source file one byte at a time and then write the contents to the newly created destinated file at the same time.
+
+To complete copying files action, I utilized fwrite and fread function calls. I first opened both the destination and source files using fopen. Once they were opened, I read the contents from the source file one byte at a time and then write the contents to the newly created destinated file at the same time.
 
 {% highlight ruby %}
 int copy_file(const char *src, const char *dest) {
@@ -110,4 +109,4 @@ Using this program on command line, I do not have to physically copy the content
 
 You can check out the complete code on my [github page].
 
-[github page]: https://github.com/edward0414/ContentCopeier
+[github page]: https://github.com/edward0414/ContentCopier
